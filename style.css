@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:product sans-serif ;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+#main{
+    width:100%;
+    height:100vh;
+    background-color: limegreen;
+}
+nav{
+    position: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+    height:10vh;
+    padding: 0vw 10vw;
+    background-color: black;
+    z-index: 99;
+    
+}
+nav a{
+    font-size: 1vw;
+    text-decoration: none;
+    color: #ffff;
+}
+.cntr-nav{
+    display: flex;
+    gap:3vw;
+}
+nav i{
+    font-size:1.5vw ;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:100vh;
+    
+}
+/* .one h1{
+    font-size: 20vw;
+
+} */
+#tpc1{
+    position: absolute;
+    right: 10%;
+    width:24%;
+    z-index: 2;
+}
+#tpc2{
+    width:24%;
+    top:10%;
+    left:30%;
+    position: absolute;
+    z-index: 1;
+}
+#tpc3{
+    width: 24%;
+    position: absolute;
+    z-index: 3;
+    top:59%;
+    left:30%
+
+}
+.two{
+    width:100%;
+    height:100vh;
+    /* background-color: black; */
+}
+.lft-two,.rght-two{
+    width:40%;
+    height:100%;
+    background-color: limegreen;
+}
+.three{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5vw;
+    width:100%;
+    height: 100vh;
+    background-color: black;
+}
+.card{
+    width:25vw;
+    height:55vh;
+    border-radius: 20px;
+    background-color: #ffff;
+    margin-top:10vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.card h1{
+    font-size: 2vw;
+   
+}
+.card button{
+    font-size: 1vw;
+    border-radius: 50px;
+    padding:1vw 2vw;
+}
